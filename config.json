@@ -1,0 +1,11 @@
+{
+	# 淘宝账号密码
+  "username":"$$$$$$$$$$$$$$$$$$",
+  "password":"$$$$$$$$$$$$$",
+  # keyword 为搜索关键字；
+  "keyword":"口罩",
+  "maxpage":1,
+  # chrome.exe路径
+  "chromepath":"chrome.exe"
+
+}
