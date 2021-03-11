@@ -150,7 +150,7 @@ class TaobaoSpider:
             print(product)
             df = pd.DataFrame(product, index=[1], columns=['image', 'price', 'deal', 'title', 'shop', 'location'])
             dfs.append(df)
-        # self.save2excel(dfs)
+        self.save2excel(dfs)
 
     # 把每页的数据保存到excel中
     def save2excel(self, dfs):
